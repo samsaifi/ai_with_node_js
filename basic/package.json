@@ -1,0 +1,24 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.ts",
+    "start": "node -r ./node_modules/ts-node/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "dotenv": "^17.2.4",
+    "init": "^0.1.2",
+    "openai": "^6.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
